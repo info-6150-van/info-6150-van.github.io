@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,21 @@
     <link rel="stylesheet" href="./styles.css">
 
 </head>
+
 <body>
-    <form action="/save-contact" method="post">
-        <label for="name">Name Label</label>
-        <input type="text" id="name-id" name="name">
+    <form action="/save/here/please" method="post">
+        <div class="form-input">
+            <label for="name">Name Label</label>
+            <input type="text" id="name-id" name="name">
+        </div>
 
-        <label for="email">Email Label</label>
-        <input type="email" name="email">
-
+        <div class="form-input">
+            <label for="email">Email Label</label>
+            <input type="email" name="email">
+        </div>
         <button type="submit">Save Email</button>
 
     </form>
 </body>
+
 </html>
